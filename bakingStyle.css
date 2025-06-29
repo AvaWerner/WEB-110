@@ -1,0 +1,86 @@
+/*Ava Werner 6/27/2025*/
+/*Baking Page Style Sheet*/
+
+/*Main Head Control*/
+header {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    padding: 2rem;
+    font-family: Arial ;
+    font-size: 4rem;
+    padding-top:0rem;
+}
+/*Navigation Position Controls*/
+nav { 
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    gap: 3rem;
+    display: flex;
+    background: transparent;
+    margin-top: -6rem;
+    margin-bottom: 2rem;
+}
+.Nav li {
+    float: left;
+    padding: 5px 9px;
+    list-style-type: none;
+}
+/*Navigation Style Controls*/
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 255, 200);
+    border-radius: 6px;
+}
+a:hover {
+    border: 3px solid darkblue;
+}
+/*Main Body Control*/
+body {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(bakingMainbg.jfif);
+}
+/*Section Head Controls*/
+h2 {
+    margin: 0%;
+    text-align: center;
+}
+/*Main Section Controls*/
+.section {
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 90%;
+    background-color: white;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    border: 2px solid darkblue;
+    border-radius: 8px;
+}
+/*Controls The Test In Each Section*/
+.section p {
+    float: left;
+}
+/*Photo Controls*/
+img {
+    margin-right: 2rem;
+    border-radius: 8px;
+    height: auto;
+    width: 8rem;
+    float: left;
+}
+/*Footer Link Style Controls*/
+footer a {
+    color: darkblue;
+    text-decoration: none;
+}
+/*Main Footer Styles*/
+footer {
+    background-color: rgb(255, 255, 200);
+    padding: 1rem;
+    text-align:center;
+}

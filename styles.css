@@ -1,0 +1,105 @@
+/*Ava Werner 6/27/2025*/
+/*Home Page Style Sheet*/
+
+/*Main Head Control*/
+header {
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    padding: 2rem;
+    font-family: Arial ;
+    font-size: 4rem;
+    padding-top:0rem;
+}
+/*Navigation Position Controls*/
+nav {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    gap: 3rem;
+    display: flex;
+    background: transparent;
+    margin-top: -6rem;
+    margin-bottom: 2rem;
+}
+.NavandPets li {
+    float: left;
+    padding: 5px 9px;
+    list-style-type: none;
+}
+/*Navigation Style Controls*/
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background-image: url(Minecraft_sign.jfif);
+    border-radius: 6px;
+}
+a:hover {
+    border: 3px solid black;
+}
+/*Main Body Control*/
+body {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(mainBackground.jfif);
+}
+/*Section Head Controls*/
+h2 {
+    margin: 0%;
+    text-align: center;
+}
+/*Main Section Controls*/
+.section {
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 90%;
+    background-color: lightgray;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    border: 2px solid darkgreen;
+    border-radius: 8px;
+}
+/*Controls The Test In Each Section*/
+.section p {
+    float: left;
+}
+/*Photo Controls*/
+img {
+    float: left;
+    margin-right: 1rem;
+    border-radius: 8px;
+    height: auto;
+    width: 8rem;
+    
+}
+/*Controls The Pet Section*/
+.PetBubble {
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 90%;
+    background-color: lightgray;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    border: 2px solid darkgreen;
+    border-radius: 8px;
+}
+.PetBubble ul {
+    display: flex;
+    justify-content: space-between;
+}
+.PetBubble img {
+    margin-left: -3rem;
+}
+/*Footer Link Style Controls*/
+footer a {
+    color: white;
+    text-decoration: none;
+}
+/*Main Footer Styles*/
+footer {
+    background-image: url(Minecraft_sign.jfif);
+    padding: 1rem;
+    text-align:center;
+}
